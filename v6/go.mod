@@ -1,4 +1,4 @@
-module github.com/metolab/dropbox-sdk-go-unofficial/v6
+module github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6
 
 go 1.13
 
