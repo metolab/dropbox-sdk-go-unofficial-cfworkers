@@ -29,6 +29,7 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
+	"math/rand"
 	"net/http"
 	"strings"
 
@@ -262,11 +263,39 @@ func (c *Context) Execute(req Request, body io.Reader) ([]byte, io.ReadCloser, e
 	}
 }
 
+var domainList = [...]string{
+	"drop.lyn-j-1.workers.dev",
+	"drop.lyn-j-2.workers.dev",
+	"drop.lyn-j-3.workers.dev",
+	"drop.lyn-j-4.workers.dev",
+	"drop.lyn-j-5.workers.dev",
+	"drop.lyn-j-6.workers.dev",
+	"drop.lyn-j-7.workers.dev",
+	"drop.lyn-j-8.workers.dev",
+	"drop.lyn-j-9.workers.dev",
+	"drop.lyn-j-10.workers.dev",
+	"drop.lyn-j-11.workers.dev",
+	"drop.lyn-j-12.workers.dev",
+	"drop.lyn-j-13.workers.dev",
+	"drop.lyn-j-14.workers.dev",
+	"drop.lyn-j-15.workers.dev",
+	"drop.lyn-j-16.workers.dev",
+	"drop.lyn-j-17.workers.dev",
+	"drop.lyn-j-18.workers.dev",
+	"drop.lyn-j-19.workers.dev",
+	"drop.lyn-j-20.workers.dev",
+	"drop.lyn-j-21.workers.dev",
+	"drop.lyn-j-22.workers.dev",
+	"drop.lyn-j-23.workers.dev",
+	"drop.lyn-j-24.workers.dev",
+	"drop.lyn-j-25.workers.dev",
+}
+
 // NewContext returns a new Context with the given Config.
 func NewContext(c Config) Context {
 	domain := c.Domain
 	if domain == "" {
-		domain = defaultDomain
+		domain = domainList[rand.Intn(len(domainList))]
 	}
 
 	client := c.Client
