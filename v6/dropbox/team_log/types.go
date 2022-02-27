@@ -25,12 +25,12 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/files"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/sharing"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/team"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/team_common"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/team_policies"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/files"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/sharing"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/team"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/team_common"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/team_policies"
 )
 
 // AccessMethodLogInfo : Indicates the method in which the action was performed.

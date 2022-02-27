@@ -25,13 +25,13 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/account"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/files"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/secondary_emails"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/team_common"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/team_policies"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/users"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/account"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/files"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/secondary_emails"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/team_common"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/team_policies"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/users"
 )
 
 // DeviceSession : has no documentation (yet)

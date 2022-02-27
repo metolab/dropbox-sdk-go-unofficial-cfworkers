@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
 )
 
 // AuthAPIError wraps AuthError

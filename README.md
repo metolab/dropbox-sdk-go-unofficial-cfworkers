@@ -1,4 +1,4 @@
-# Dropbox SDK for Go [UNOFFICIAL] [![GoDoc](https://pkg.go.dev/badge/github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox)](https://pkg.go.dev/github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox) [![Actions Status](https://github.com/dropbox/dropbox-sdk-go-unofficial/workflows/Test/badge.svg)](https://github.com/dropbox/dropbox-sdk-go-unofficial/actions) [![Actions Status](https://github.com/dropbox/dropbox-sdk-go-unofficial/workflows/Lint/badge.svg)](https://github.com/dropbox/dropbox-sdk-go-unofficial/actions)
+# Dropbox SDK for Go [UNOFFICIAL] [![GoDoc](https://pkg.go.dev/badge/github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox)](https://pkg.go.dev/github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox) [![Actions Status](https://github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/workflows/Test/badge.svg)](https://github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/actions) [![Actions Status](https://github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/workflows/Lint/badge.svg)](https://github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/actions)
 
 An **UNOFFICIAL** Go SDK for integrating with the Dropbox API v2. Tested with Go 1.11+
 
@@ -17,18 +17,18 @@ An **UNOFFICIAL** Go SDK for integrating with the Dropbox API v2. Tested with Go
 ## Installation
 
 ```sh
-$ go get github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/...
+$ go get github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/...
 ```
 
 For most applications, you should just import the relevant namespace(s) only. The SDK exports the following sub-packages:
 
-* `github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/auth`
-* `github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/files`
-* `github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/sharing`
-* `github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/team`
-* `github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/users`
+* `github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/auth`
+* `github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/files`
+* `github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/sharing`
+* `github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/team`
+* `github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/users`
 
-Additionally, the base `github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox` package exports some configuration and helper methods.
+Additionally, the base `github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox` package exports some configuration and helper methods.
 
 ## Usage
 
@@ -39,8 +39,8 @@ First, you need to [register a new "app"](https://dropbox.com/developers/apps) t
 Once you've created an app, you can get an access token from the app's console. Note that this token will only work for the Dropbox account the token is associated with.
 
 ```go
-import "github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
-import "github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/users"
+import "github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
+import "github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/users"
 
 func main() {
   config := dropbox.Config{
@@ -89,7 +89,7 @@ Please read the [API docs](https://www.dropbox.com/developers/documentation/http
 
 ## Code Generation
 
-This SDK is automatically generated using the public [Dropbox API spec](https://github.com/dropbox/dropbox-api-spec) and [Stone](https://github.com/dropbox/stone). See this [README](https://github.com/dropbox/dropbox-sdk-go-unofficial/blob/master/generator/README.md)
+This SDK is automatically generated using the public [Dropbox API spec](https://github.com/dropbox/dropbox-api-spec) and [Stone](https://github.com/dropbox/stone). See this [README](https://github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/blob/master/generator/README.md)
 for more details on how code is generated. 
 
 ## Caveats

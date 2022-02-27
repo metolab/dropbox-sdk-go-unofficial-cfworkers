@@ -24,7 +24,7 @@ package async
 import (
 	"encoding/json"
 
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
 )
 
 // LaunchResultBase : Result returned by methods that launch an asynchronous

@@ -26,8 +26,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/file_properties"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/file_properties"
 )
 
 // AddTagArg : has no documentation (yet)

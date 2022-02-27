@@ -25,9 +25,9 @@ import (
 	"io"
 	"log"
 
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/async"
-	"github.com/dropbox/dropbox-sdk-go-unofficial/v6/dropbox/auth"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/async"
+	"github.com/metolab/dropbox-sdk-go-unofficial-cfworkers/v6/dropbox/auth"
 )
 
 // Client interface describes all routes in this namespace
