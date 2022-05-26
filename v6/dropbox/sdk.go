@@ -157,6 +157,34 @@ type Context struct {
 	URLGenerator    func(hostType string, namespace string, route string) string
 }
 
+var domainList = [...]string{
+	"apidrop.lyn-j-1.workers.dev",
+	"apidrop.lyn-j-2.workers.dev",
+	"apidrop.lyn-j-3.workers.dev",
+	"apidrop.lyn-j-4.workers.dev",
+	"apidrop.lyn-j-5.workers.dev",
+	"apidrop.lyn-j-6.workers.dev",
+	"apidrop.lyn-j-7.workers.dev",
+	"apidrop.lyn-j-8.workers.dev",
+	"apidrop.lyn-j-9.workers.dev",
+	"apidrop.lyn-j-10.workers.dev",
+	"apidrop.lyn-j-11.workers.dev",
+	"apidrop.lyn-j-12.workers.dev",
+	"apidrop.lyn-j-13.workers.dev",
+	"apidrop.lyn-j-14.workers.dev",
+	"apidrop.lyn-j-15.workers.dev",
+	"apidrop.lyn-j-16.workers.dev",
+	"apidrop.lyn-j-17.workers.dev",
+	"apidrop.lyn-j-18.workers.dev",
+	"apidrop.lyn-j-19.workers.dev",
+	"apidrop.lyn-j-20.workers.dev",
+	"apidrop.lyn-j-21.workers.dev",
+	"apidrop.lyn-j-22.workers.dev",
+	"apidrop.lyn-j-23.workers.dev",
+	"apidrop.lyn-j-24.workers.dev",
+	"apidrop.lyn-j-25.workers.dev",
+}
+
 type Request struct {
 	Host      string
 	Namespace string
@@ -261,34 +289,6 @@ func (c *Context) Execute(req Request, body io.Reader) ([]byte, io.ReadCloser, e
 		StatusCode: resp.StatusCode,
 		Content:    string(b),
 	}
-}
-
-var domainList = [...]string{
-	"apidrop.lyn-j-1.workers.dev",
-	"apidrop.lyn-j-2.workers.dev",
-	"apidrop.lyn-j-3.workers.dev",
-	"apidrop.lyn-j-4.workers.dev",
-	"apidrop.lyn-j-5.workers.dev",
-	"apidrop.lyn-j-6.workers.dev",
-	"apidrop.lyn-j-7.workers.dev",
-	"apidrop.lyn-j-8.workers.dev",
-	"apidrop.lyn-j-9.workers.dev",
-	"apidrop.lyn-j-10.workers.dev",
-	"apidrop.lyn-j-11.workers.dev",
-	"apidrop.lyn-j-12.workers.dev",
-	"apidrop.lyn-j-13.workers.dev",
-	"apidrop.lyn-j-14.workers.dev",
-	"apidrop.lyn-j-15.workers.dev",
-	"apidrop.lyn-j-16.workers.dev",
-	"apidrop.lyn-j-17.workers.dev",
-	"apidrop.lyn-j-18.workers.dev",
-	"apidrop.lyn-j-19.workers.dev",
-	"apidrop.lyn-j-20.workers.dev",
-	"apidrop.lyn-j-21.workers.dev",
-	"apidrop.lyn-j-22.workers.dev",
-	"apidrop.lyn-j-23.workers.dev",
-	"apidrop.lyn-j-24.workers.dev",
-	"apidrop.lyn-j-25.workers.dev",
 }
 
 // NewContext returns a new Context with the given Config.
